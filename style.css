@@ -34,8 +34,8 @@ ul li:hover ul li {
     display: block;
 }
 #menu {
-	position:absolute;
-    left:300px;
+    position:absolute;
+    left:500px;
     top:18px;
 }
 	
