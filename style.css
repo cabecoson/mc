@@ -28,7 +28,8 @@ ul li a {
     display: block;
     border-radius: 50% 50% 20% 20%/50%; 
     -webkit-border-radius: 50% 50% 20% 20%/50%; 
-    -moz-border-radius: 50% 50% 20% 20%/50%;}
+    -moz-border-radius: 50% 50% 20% 20%/50%;
+}
 ul li a:hover {
 	background-color: green;
 }
