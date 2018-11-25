@@ -21,7 +21,6 @@ ul li {
     border-radius: 50% 50% 20% 20%/50%; 
     -webkit-border-radius: 50% 50% 20% 20%/50%; 
     -moz-border-radius: 50% 50% 20% 20%/50%;
-    block_spacing: 10px;
 }
 ul li a {
     text-decoration: none;
@@ -29,9 +28,7 @@ ul li a {
     display: block;
     border-radius: 50% 50% 20% 20%/50%; 
     -webkit-border-radius: 50% 50% 20% 20%/50%; 
-    -moz-border-radius: 50% 50% 20% 20%/50%;
-    block_spacing: 10px;
-}
+    -moz-border-radius: 50% 50% 20% 20%/50%;}
 ul li a:hover {
 	background-color: green;
 }
