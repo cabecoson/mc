@@ -37,7 +37,10 @@ ul li:hover ul li {
     position:absolute;
     left:220px;
     top:18px;
+	text-align: center;
 }
+
+
 	
 	
 	
