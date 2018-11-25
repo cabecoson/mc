@@ -18,11 +18,17 @@ ul li {
     line-height: 40px;
     text-align: center;
     font-size: 20px;
+	border-radius: 50% 50% 20% 20%/50%; 
+    -webkit-border-radius: 50% 50% 20% 20%/50%; 
+    -moz-border-radius: 50% 50% 20% 20%/50%;
 }
 ul li a {
     text-decoration: none;
     color: white;
     display: block;
+	border-radius: 50% 50% 20% 20%/50%; 
+    -webkit-border-radius: 50% 50% 20% 20%/50%; 
+    -moz-border-radius: 50% 50% 20% 20%/50%;
 }
 ul li a:hover {
 	background-color: green;
@@ -36,9 +42,22 @@ ul li:hover ul li {
 #menu {
     position:absolute;
     left:220px;
-    top:18px;
+    top:25px;
 	text-align: center;
 }
+#img1 img {
+	max-width:225px;
+    width:225px;
+    width:expression(document.body.clientWidth>600?"600px":"auto");
+    overflow:hidden;
+}
+#img1 {
+	position:absolute;
+    left:0px;
+    top:-25px;
+	text-align: center;
+}
+    
 
 
 	
