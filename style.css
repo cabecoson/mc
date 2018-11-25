@@ -22,7 +22,6 @@ ul li {
     -webkit-border-radius: 50% 50% 20% 20%/50%; 
     -moz-border-radius: 50% 50% 20% 20%/50%;
     block_spacing: 10px;
-    margin: 5px;
 }
 ul li a {
     text-decoration: none;
@@ -32,7 +31,6 @@ ul li a {
     -webkit-border-radius: 50% 50% 20% 20%/50%; 
     -moz-border-radius: 50% 50% 20% 20%/50%;
     block_spacing: 10px;
-    margin: 5px;
 }
 ul li a:hover {
 	background-color: green;
