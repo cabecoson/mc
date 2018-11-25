@@ -4,6 +4,10 @@ body {
     font-family: Arial;
     margin:0px auto;
 }
+html, body {
+    /* 設定body高度為100% 拉到視窗可視的大小 */
+    height: 100%;
+}
 ul {
     margin: 0px;
     padding: 0px;
@@ -56,4 +60,22 @@ ul li:hover ul li {
     position:absolute;
     left:0px;
     top:-25px;
+}
+#wrapper {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    max-width: 100%;
+    text-align: center;
+    background-color:;
+ }
+
+}
+#din {
+}
+#oo {
+}
+#foot {
+    position: fixed;
+	bottom: 0;
 }
